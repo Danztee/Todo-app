@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background-color: gray;
+}
+
+.header {
+  text-align: center;
+}
+
+.todo-input {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.todo-input input {
+  width: 20rem;
+  padding: 0.6rem;
+  outline: none;
+  border: none;
+}
+
+.todo-body {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
